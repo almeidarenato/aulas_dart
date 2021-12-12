@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main(List<String> args) {
   var hello = 'Hello World';
   var numero = 3;
@@ -12,4 +14,19 @@ void main(List<String> args) {
   print(numero + 2);
   print(outronumero + 1);
   print(numeroflutuante + 3.1);
+
+  // operadores
+
+  double x = 3, y = 4;
+
+  print(x * y);
+  print(x - y);
+  print(x * y);
+  print(x / y);
+  print(x % y); // resto
+  print(pow(x, y)); //elevado (3*3*3*3)
+
+  String texto1 = 'Olá', texto2 = 'Mundo';
+
+  print(texto1 + ' ' + texto2);
 }
