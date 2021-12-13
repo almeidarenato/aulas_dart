@@ -18,4 +18,13 @@ main() {
   print(nomes);
 
   List<String> listaNomes = []; //lista com tipagem informada.
+  listaNomes.add('Renato');
+  listaNomes.add('Rodrigo');
+  listaNomes.add('Flavia');
+  int quantidade = 0;
+
+  while (quantidade < listaNomes.length) {
+    print('Nome ${quantidade + 1}: ${listaNomes[quantidade]}');
+    quantidade++;
+  }
 }
